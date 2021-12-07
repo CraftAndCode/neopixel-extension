@@ -8,6 +8,7 @@ neopixel=github:microsoft/pxt-neopixel
 ```
 
 ```template
+let strip: neopixel.Strip = null
 basic.forever(function () {
 })
 ```
