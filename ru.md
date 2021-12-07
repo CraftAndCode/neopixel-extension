@@ -14,6 +14,15 @@ basic.forever(function () {
 
 ```blocks
 basic.forever(function () {
+let strip: neopixel.Strip = null
+basic.showLeds(`
+    . . . . .
+    # . . # .
+    # # # # #
+    # . . . .
+    . . . . .
+    `)
+strip = neopixel.create(DigitalPin.P1, 10, NeoPixelMode.RGB)
 })
 ```
 
