@@ -1,4 +1,4 @@
-# Расширение Neopixel
+# Neopixel: Часть 1
 
 ```package
 core
