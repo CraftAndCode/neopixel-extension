@@ -9,7 +9,7 @@ neopixel=github:microsoft/pxt-neopixel
 
 ```template
 basic.forever(function () {
-strip = neopixel.create(DigitalPin.P1, 10, NeoPixelMode.RGB)
+strip = neopixel.create(DigitalPin.P0, 10, NeoPixelMode.RGB)
 })
 ```
 
