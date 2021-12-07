@@ -8,8 +8,8 @@ neopixel=github:microsoft/pxt-neopixel
 ```
 
 ```template
-let strip: neopixel.Strip = null
 basic.forever(function () {
+strip = neopixel.create(DigitalPin.P1, 10, NeoPixelMode.RGB)
 })
 ```
 
